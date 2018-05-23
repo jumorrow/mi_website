@@ -15,13 +15,13 @@
 ================================================== -->
 <link rel="stylesheet" href="<?php echo get_asset_path('css','default.css');?>" type="text/css">
 <link rel="stylesheet" href="<?php echo get_asset_path('css','layout.css');?>" type="text/css">
-<link rel="stylesheet" href="<?php echo get_asset_path('css','medai-queries.css');?>" type="text/css">
+<link rel="stylesheet" href="<?php echo get_asset_path('css','media-queries.css');?>" type="text/css">
 <link rel="stylesheet" href="<?php echo get_asset_path('css','magnific-popup.css');?>" type="text/css">
 
 <!-- Script
 ================================================== -->
 <script src="<?php echo get_asset_path('js','modernizr.js');?>" type="text/javascript"></script>
 
-<!-- Favicons
+<!-- Favicon
 ================================================== -->
 <link rel="shortcut icon" href="favicon.png">

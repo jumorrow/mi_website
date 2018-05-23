@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');?>
 
 <section id="resume">
-    <div class="row work">
+    <div class="row education">
         <div class="three columns header-col">
             <h1><span>Work Experience</span></h1>
         </div>
@@ -13,8 +13,8 @@
                     <ul class="disc">
                         <li>2018 Initiatives Well Underway</li>                           
                     </ul>
-                </div>
-            </div>            
+            </div>
+            </div>
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Magento / eBay Enterprise</h3>
@@ -41,16 +41,16 @@
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Lyons Consulting Group</h3>
-                    <p class="info">Technical Architect / Sr. App Engineer<span>></span> <em class="date">February 2011 - April 2014</em></p>
-                    <ul class="disc">
-                        <li>Architected, developed, deployed and supported over 40 Magento Enterprise applications</li>
-                        <li>Spearheaded many internal software offerings; often assisting with taking them to market</li>
-                        <li>Authored many pivotal development and release procedures, increased overall project profitability</li>
-                        <li>Responsible for all development training and certification initiatives, on-boarding process, developer work-flow, internal knowledge share, Magento meet ups and technical interviews</li>
-                        <li>Designed and championed an employee growth/promotion strategy to retain top contributers</li>
-                        <li>Assembled and managed specialized development teams</li>
-                        <li>Daily scrum-master and team lead, responsible for weekly sprint planning and requirements gathering, project estimation, road-block resolution, technical documentation, RFP assistance</li>
-                    </ul>
+                        <p class="info">Technical Architect / Sr. App Engineer<span>></span> <em class="date">February 2011 - April 2014</em></p>
+                            <ul class="disc">
+                                <li>Architected, developed, deployed and supported over 40 Magento Enterprise applications</li>
+                                <li>Spearheaded many internal software offerings; often assisting with taking them to market</li>
+                                <li>Authored many pivotal development and release procedures, increased overall project profitability</li>
+                                <li>Responsible for all development training and certification initiatives, on-boarding process, developer work-flow, internal knowledge share, Magento meet ups and technical interviews</li>
+                                <li>Designed and championed an employee growth/promotion strategy to retain top contributers</li>
+                                <li>Assembled and managed specialized development teams</li>
+                                <li>Daily scrum-master and team lead, responsible for weekly sprint planning and requirements gathering, project estimation, road-block resolution, technical documentation, RFP assistance</li>
+                            </ul>
                 </div>
             </div>
             <div class="row item">
@@ -58,34 +58,34 @@
                     <h3>The Plumtree Group</h3>
                     <p class="info">Technical Lead / Sr. Developer<span>></span> <em class="date">April 2008 - February 2011</em></p>
                     <ul class="disc">
-                        <li>Assisted with building new e-commerce practice</li>
+                            <li>Assisted with building new e-commerce practice</li>
                         <li>Authored entire development life cycle, release and support procedures</li>
                         <li>Interviewed, hired, managed and trained 4 US developers and 30+ off-shore resources</li>
                         <li>Contributed to many applications with varying degrees of difficulty in a development and architecture capacity</li>
                         <li>Responsible for all client-facing technical interaction and proposals</li>
                     </ul>
                 </div>
-            </div>
+            </div>          
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Home Office Solutions</h3>
-                    <p class="info">E-Commerce Web Developer<span>></span> <em class="date">2007-2008</em></p>
-                    <ul class="disc">
-                        <li>Wide variety of e-commerce development tasks</li>
-                    </ul>
+                        <p class="info">E-Commerce Web Developer<span>></span> <em class="date">2007-2008</em></p>
+                        <ul class="disc">
+                            <li>Wide variety of e-commerce development tasks</li>
+                        </ul>
                 </div>
-            </div>
+            </div>            
             <div class="row item">
                 <div class="twelve columns">
                     <h3>nFrame Data Center</h3>
-                    <p class="info">Tier 2 Network Engineer<span>></span><em class="date">2006-2007</em></p>
-                    <ul class="disc">
-                        <li>Managed multiple hosting accounts, customer support</li>
-                        <li>Daily server troubleshooting, maintenance and configuration</li>
-                        <li>Facilities auditing</li>
-                    </ul>
+                        <p class="info">Tier 2 Network Engineer<span>></span><em class="date">2006-2007</em></p>
+                        <ul class="disc">
+                            <li>Managed multiple hosting accounts, customer support</li>
+                            <li>Daily server troubleshooting, maintenance and configuration</li>
+                            <li>Facilities auditing</li>
+                        </ul>
                 </div>
-            </div>
+            </div>             
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Morrow Interactive</h3>
@@ -93,9 +93,9 @@
                     <ul class="disc">
                         <li>Provided various technical services for more than 50 customers</li>
                     </ul>
-                </div>
-            </div>
-        </div>
+               </div>
+            </div>  
+      </div>
     </div>
     <div class="row skill">
         <div class="three columns header-col">

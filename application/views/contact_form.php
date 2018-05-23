@@ -1,24 +1,36 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');?>
 
-<form action="<?php echo site_url('form/contact');?>" method="post" class="contact-form">
-    <div>
-      <p><span>Name : </span><br />
-        <input type="text" name="contact_name" class="contact-name" required="required" />
-      </p>
-      <p><span>E-Mail : </span><br />
-        <input type="email" name="contact_email" class="contact-email" required="required" />
-      </p>
-      <p><span>Subject : </span><br />
-        <input type="text" name="contact_subject" class="contact-subject" required="required" />
-      </p>
+<section id="contact">
+    <div class="row">
+        <div class="eight columns">
+            <form action="<?php echo site_url('form/contact');?>" method="post">
+                <fieldset>
+                    <div>
+                        <label for="contact_name">Name <span class="required">*</span></label>
+                        <input type="text" value="" size="35" id="contact_name" name="contact_name" required="required" />
+                    </div>
+                    <div>
+                        <label for="contact_email">Email <span class="required">*</span></label>
+                        <input type="text" value="" size="35" id="contact_email" name="contact_email" required="required" />
+                    </div>
+                    <div>
+                        <label for="contact_subject">Subject</label>
+                        <input type="text" value="" size="35" id="contact_subject" name="contact_subject" required="required" />
+                    </div>
+                    <div>
+                        <label for="contact_message">Message <span class="required">*</span></label>
+                        <textarea cols="50" rows="15" id="contact_message" name="contact_message" required="required"></textarea>
+                    </div>
+                    <div>
+                        <label for="contact_validate">2 + 2 =</label>
+                        <input type="text" value="" size="35" id="contact_validate" name="contact_validate" required="required" />
+                    </div>
+                <div>
+                    <button class="submit">Submit</button>
+                    <span id="image-loader"><img alt="" src="images/loader.gif"></span>
+                </div>
+                </fieldset>
+            </form>
+        </div>
     </div>
-    <div>
-      <textarea name="contact_message" class="contact-message" required="required">Enter your message here, remember to be nice.</textarea>
-    </div>
-    <p><span>2 + 2 Equals? </span><br />
-        <input type="text" name="contact_validate" class="contact-validate" required="required" />
-    </p>
-    <div>
-      <input class="contact-submit" type="submit" name="contact_submitted" value="Send Me Details" />
-    </div>
-</form>
+</section>

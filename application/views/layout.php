@@ -4,15 +4,12 @@
 ================================================== -->
 <?php $this->load->view('doc_type');?>
 
-<html class="no-js" lang="en">
-<!--<![endif]-->
 <head>
-<!--- Head Content
-================================================== -->
-<?php $this->load->view('head');?>
+    <?php $this->load->view('head');?>
 </head>
 
 <body>
+
 <!--- Header Content
 ================================================== -->
 <?php $this->load->view('header');?>
@@ -29,12 +26,21 @@
 ================================================== -->
 <?php $this->load->view('mentorship');?>
 
-<!--- Footer Content
+<!--- Testimonial Content
+================================================== -->
+<?php $this->load->view('testimonials');?>
+
+<!-- Contact Section
+================================================== -->
+<?php $this->load->view('contact_form');?>
+
+<!-- Footer Content
 ================================================== -->
 <?php $this->load->view('footer');?>
 
-<!--- Final Script Content
+<!-- Final Scripts
 ================================================== -->
 <?php $this->load->view('final_scripts');?>
+
 </body>
 </html>

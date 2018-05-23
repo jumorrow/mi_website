@@ -10,13 +10,13 @@
             <div class="row">
                 <div class="columns contact-details">
                     <h2>Contact Details</h2>
-                    <p class="address"><span>Justin Ellis Morrow</span><br>
-                    <span><?php echo get_phone_number();?></span><br>
-                    <span><a href="mailto:<?php echo get_email_address();?>"><?php echo get_email_address();?></a></span><br>
+                    <p class="address"><span>Justin Ellis Morrow</span><br />
+                    <span><?php echo get_phone_number();?></span><br />
+                    <span><a href="mailto:<?php echo get_email_address();?>"><?php echo get_email_address();?></a></span><br />
                     <span><a href="<?php echo get_linkedin_url();?>">LinkedIn</a></span></p>
                 </div>
                 <div class="columns download">
-                    <p><a href="<?php echo get_asset_path('assets','resumes/justin-morrow.pdf');?>" class="button" target="_blank" >Download Resume</a></p>
+                    <p><a href="<?php echo get_asset_path('assets','resumes/justin-morrow.pdf');?>" class="button" target="_blank" >Download Resum&eacute;</a></p>
                 </div>
             </div>
         </div>
