@@ -16,7 +16,7 @@ class Form extends CI_Controller {
         $contact_message = $this->input->post('contact_message');
         $contact_validate = $this->input->post('contact_validate');
         $contact_to = get_email_address();
-       
+        
         if (!$contact_name || !$contact_email || !$contact_subject || !$contact_message || $contact_validate != "4") {
             $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Hmm. Try Again?</h1><br /><h3>Psssst. Check your math.</h3></div>');
             
@@ -25,7 +25,7 @@ class Form extends CI_Controller {
             
         } else {
             $this->load->library('email');
-            $this->email->from('mail@morrowinteractive.com', 'Contact Form');
+            $this->email->from($contact_to, 'Contact Form');
             $this->email->to($contact_to);
             $this->email->reply_to($contact_email, $contact_name);
 
