@@ -21,9 +21,9 @@
                     <p class="info">Senior Solutions Consultant<span>></span><em class="date">April 2014 - March 2018</em></p>
                     <ul class="disc">
                         <li>Promoted to Head of Channel Technical Sales</li>
-                        <li>Directly contributed to closing more than $4M in software licenses during 2017</li>
+                        <li>Directly contributed to closing more than $11M (TCV) in software license sales in 2017</li>
                         <li>Awarded Solutions Consultant of the year, 2016</li>                           
-                        <li>Directly contributed to closing $3.8M in in software licenses during 2016</li>
+                        <li>Directly contributed to closing more than $9M (TCV) in software license sales in 2016</li>
                         <li>Delivered hundreds of customer-centric, highly focused product demonstrations</li>
                         <li>Assisted in closing many complex, enterprise level sales opportunities</li>
                         <li>Curated full-day development/architecture workshops for highly technical stakeholders</li>
