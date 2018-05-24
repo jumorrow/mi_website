@@ -19,8 +19,6 @@ class Form extends CI_Controller {
         
         //server specific config for email->send();
         $config['protocol']    = 'smtp';
-        $config['smtp_host']    = 'localhost';
-        $config['smtp_port']    = '25';
         
         //add values to email config
         $this->email->initialize($config);
