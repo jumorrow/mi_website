@@ -17,7 +17,7 @@
         <?php echo $this->session->flashdata('message'); ?>
         <div class="banner-text banner-hide">
             <h1 class="responsive-headline">Howdy, I'm Justin.</h1>
-            <h3>Thanks for stopping by, I'd offer you a coffee but we're note quite there yet with technology. Let's work on making e-coffee a real thing.<br />
+            <h3>Thanks for stopping by, I'd offer you a coffee but we're not quite there yet with technology. Let's work on making e-coffee a real thing.<br />
             Or maybe we just <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me </a>?</h3>
             <hr />
         </div>
