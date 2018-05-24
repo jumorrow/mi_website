@@ -40,5 +40,9 @@ class Form extends CI_Controller {
             //redirect back to home page and display flash message
             redirect();
             }
-    }  
+    }
+    public function testmail()
+    {
+        mail('jumorrow@protonmail.com' , 'test from inside ci', 'test from ci');
+    }
 }
