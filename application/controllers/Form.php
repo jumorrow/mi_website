@@ -18,7 +18,8 @@ class Form extends CI_Controller {
         $contact_to = get_email_address();
         
         //server specific config for email->send();
-        $config['protocol']    = 'smtp';
+        $config['protocol'] = 'smtp';
+        $config['smtp_host'] = 'ssl://ssmtp.gmail.com';
         
         //add values to email config
         $this->email->initialize($config);
