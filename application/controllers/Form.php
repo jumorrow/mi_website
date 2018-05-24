@@ -24,7 +24,9 @@ class Form extends CI_Controller {
             redirect();
             
         } else {
-            $this->email->from('contact@morrowinteractive.com', 'Contact Form');
+            
+            //needs to be specific e-mail address defined on hostgator to send
+            $this->email->from('jmorrow@gator4095.hostgator.com', 'Contact Form');
             $this->email->to($contact_to);
             $this->email->reply_to($contact_email, $contact_name);
 
