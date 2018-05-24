@@ -17,14 +17,9 @@ class Form extends CI_Controller {
         $contact_validate = $this->input->post('contact_validate');
         $contact_to = get_email_address();
         
-        //server specific config for email->send();
-        $config['protocol'] = 'smtp';
-        $config['smtp_host'] = 'ssl://ssmtp.gmail.com';
-        
-        //add values to email config
-        $this->email->initialize($config);
-        
         if (!$contact_name || !$contact_email || !$contact_subject || !$contact_message || $contact_validate != "4") {
+            
+            //set flash data for error/success messages
             $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Hmm. Try Again?</h1><br /><h3>Psssst. Check your math.</h3></div>');
             
             //redirect back to home page and display flash message
@@ -32,15 +27,14 @@ class Form extends CI_Controller {
             
         } else {
             
-            //needs to be specific e-mail address defined on hostgator to send
-            $this->email->from('jmorrow@gator4095.hostgator.com', 'Contact Form');
-            $this->email->to($contact_to);
-            $this->email->reply_to($contact_email, $contact_name);
+            $headers[] = 'MIME-Version: 1.0';
+            $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
-            $this->email->subject($contact_subject);
-            $this->email->message($contact_message);
-
-            $this->email->send();
+            //Send using standard PHP Mail Function
+            //CodeIgniter email library not working on server
+            mail($contact_to, $contact_subject, $contact_message, implode("\r\n", $headers));
+            
+            //set flash data for error/success 
             $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Got Your Message!</h1><br /><h3>You will hear from me shortly.</h3></div>');
             
             //redirect back to home page and display flash message
