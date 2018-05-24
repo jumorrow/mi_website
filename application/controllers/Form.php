@@ -24,7 +24,6 @@ class Form extends CI_Controller {
             redirect();
             
         } else {
-            $this->load->library('email');
             $this->email->from($contact_to, 'Contact Form');
             $this->email->to($contact_to);
             $this->email->reply_to($contact_email, $contact_name);
