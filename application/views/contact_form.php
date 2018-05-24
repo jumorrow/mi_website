@@ -32,5 +32,12 @@
                 </fieldset>
             </form>
         </div>
+        <aside class="four columns footer-widgets">
+        <div class="widget widget_contact">
+            <h4>Get Started Now</h4>
+            <p>Use the contact form to request more information about technical career mentorship.</p>
+            <p>Average response time is within 2-3 business days.</p>
+        </div>
+        </aside>
     </div>
 </section>

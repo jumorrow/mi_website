@@ -9,7 +9,7 @@
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Magento</h3>
-                    <p class="info">Head of Channel Technical Sales<span>&bull;</span> <em class="date">March 2018 - Present</em></p>
+                    <p class="info">Head of Channel Technical Sales<span>></span><em class="date">March 2018 - Present</em></p>
                     <ul class="disc">
                         <li>2018 Initiatives Well Underway</li>                           
                     </ul>
@@ -18,7 +18,7 @@
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Magento / eBay Enterprise</h3>
-                    <p class="info">Senior Solutions Consultant<span>&bull;</span> <em class="date">April 2014 - March 2018</em></p>
+                    <p class="info">Senior Solutions Consultant<span>></span><em class="date">April 2014 - March 2018</em></p>
                     <ul class="disc">
                         <li>Promoted to Head of Channel Technical Sales</li>
                         <li>Directly contributed to closing more than $4M in software licenses during 2017</li>
@@ -56,7 +56,7 @@
             <div class="row item">
                 <div class="twelve columns">
                     <h3>The Plumtree Group</h3>
-                    <p class="info">Technical Lead / Sr. Developer<span>></span> <em class="date">April 2008 - February 2011</em></p>
+                    <p class="info">Technical Lead / Sr. Developer<span>></span><em class="date">April 2008 - February 2011</em></p>
                     <ul class="disc">
                             <li>Assisted with building new e-commerce practice</li>
                         <li>Authored entire development life cycle, release and support procedures</li>
@@ -69,7 +69,7 @@
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Home Office Solutions</h3>
-                        <p class="info">E-Commerce Web Developer<span>></span> <em class="date">2007-2008</em></p>
+                        <p class="info">E-Commerce Web Developer<span>></span><em class="date">2007-2008</em></p>
                         <ul class="disc">
                             <li>Wide variety of e-commerce development tasks</li>
                         </ul>
@@ -89,7 +89,7 @@
             <div class="row item">
                 <div class="twelve columns">
                     <h3>Morrow Interactive</h3>
-                    <p class="info">Consultant<span>></span> <em class="date">2005-Present</em></p>
+                    <p class="info">Consultant<span>></span><em class="date">2005-Present</em></p>
                     <ul class="disc">
                         <li>Provided various technical services for more than 50 customers</li>
                     </ul>
