@@ -27,13 +27,13 @@ class Form extends CI_Controller {
             
         } else {
             
-            $headers[] = 'MIME-Version: 1.0';
-            $headers[] = 'Content-type: text/html; charset=iso-8859-1';
+            //$headers[] = 'MIME-Version: 1.0';
+            //$headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
             //Send using standard PHP Mail Function
             //CodeIgniter email library not working on server
-            mail($contact_to, $contact_subject, $contact_message, implode("\r\n", $headers));
-            
+            //mail($contact_to, $contact_subject, $contact_message, implode("\r\n", $headers));
+            mail('jumorrow@protonmail.com' , 'test from inside ci', 'test from ci');
             //set flash data for error/success 
             $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Got Your Message!</h1><br /><h3>You will hear from me shortly.</h3></div>');
             
