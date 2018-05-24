@@ -126,7 +126,8 @@ if (!function_exists('get_email_address'))
      */    
     function get_email_address()
     {
-        $email_address = "jumorrow@protonmail.com";
+        //$email_address = "jumorrow@protonmail.com";
+        $email_address = "jumorrow@magento.com";
         return $email_address;
     }   
     
