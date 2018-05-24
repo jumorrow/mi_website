@@ -43,6 +43,22 @@ class Form extends CI_Controller {
     }
     public function testmail()
     {
-        mail('jumorrow@protonmail.com' , 'test from inside ci', 'test from ci');
+
+            $this->load->library('email');
+            $this->email->set_newline("\r\n");
+
+            $this->email->from('jmorrow@gator4095.hostgator.com', 'Name');
+            $this->email->to('jumorrow@protonmail.com'); 
+
+            $this->email->subject('from server');
+            $this->email->message('from server'); 
+
+            if($this->email->send()){
+               //Success email Sent
+               echo $this->email->print_debugger();
+            }else{
+               //Email Failed To Send
+               echo $this->email->print_debugger();
+            }
     }
 }
