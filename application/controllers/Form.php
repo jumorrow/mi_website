@@ -24,12 +24,12 @@ class Form extends CI_Controller {
             redirect();
             
         } else {
-            $this->email->from($contact_to, 'Contact Form');
+            $this->email->from('contact@morrowinteractive.com', 'Contact Form');
             $this->email->to($contact_to);
             $this->email->reply_to($contact_email, $contact_name);
 
             $this->email->subject($contact_subject);
-            $this->email->message("Message : {$contact_message}");
+            $this->email->message($contact_message);
 
             $this->email->send();
             $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Got Your Message!</h1><br /><h3>You will hear from me shortly.</h3></div>');
@@ -37,5 +37,5 @@ class Form extends CI_Controller {
             //redirect back to home page and display flash message
             redirect();
             }
-    }             
+    }  
 }
