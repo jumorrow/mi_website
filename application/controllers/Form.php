@@ -30,21 +30,20 @@ class Form extends CI_Controller {
             //host gator does not support mail or SMTP, only sendmail
             //manually enforce this config
             $config['protocol'] = 'sendmail';
-            
-            //load email library
-            $this->load->library('email');
-            
+                        
             //init library parameters
             $this->email->initialize($config);
             $this->email->set_newline("\r\n");
-
+            
+            //the from must be an existing email address on the host server
             $this->email->from('jmorrow@gator4095.hostgator.com', 'Contact Form');
             $this->email->to($contact_to); 
             $this->email->reply_to($contact_email, $contact_name);
 
             $this->email->subject($contact_subject);
             $this->email->message($contact_message); 
-
+            
+            //send the email
             $this->email->send();
  
             //set flash data for error/success 
