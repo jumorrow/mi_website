@@ -38,7 +38,7 @@ class Form extends CI_Controller {
             $this->email->initialize($config);
             $this->email->set_newline("\r\n");
 
-            $this->email->from('jmorrow@gator4095.hostgator.com', 'Contact Form');
+            $this->email->from($contact_email, $contact_name);
             $this->email->to($contact_to); 
 
             $this->email->subject($contact_subject);
