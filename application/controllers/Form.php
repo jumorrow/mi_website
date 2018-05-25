@@ -43,7 +43,7 @@ class Form extends CI_Controller {
             $this->email->reply_to($contact_email, $contact_name);
 
             $this->email->subject($contact_subject);
-            $this->email->message(); 
+            $this->email->message($contact_message); 
 
             $this->email->send();
  
