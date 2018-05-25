@@ -30,7 +30,10 @@ class Form extends CI_Controller {
             //host gator does not support mail or SMTP, only sendmail
             //manually enforce this config
             $config['protocol'] = 'sendmail';
-                        
+            
+            //load email library
+            $this->load->library('email');
+            
             //init library parameters
             $this->email->initialize($config);
             $this->email->set_newline("\r\n");

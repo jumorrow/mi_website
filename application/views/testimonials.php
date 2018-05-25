@@ -23,6 +23,12 @@
                         </li>
                         <li>
                             <blockquote>
+                                <p>Justin has an expert understanding of how to navigate the job market and stand out to employers. With any career industry, Justin is able to provide a step-by-step guide on how to land your next job, including resume building and interviewing strategies.</p>
+                                <cite>Former Mentee</cite>
+                            </blockquote>
+                        </li>                        
+                        <li>
+                            <blockquote>
                                 <p>It's very clear how much he cares about his work and his colleagues. He is always available for a question and is very interested in making sure others learn and improve their skills.</p>
                                 <cite>Former Colleague</cite>
                             </blockquote>
