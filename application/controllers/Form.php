@@ -43,8 +43,11 @@ class Form extends CI_Controller {
     }
     public function testmail()
     {
-
+            $config['protocol'] = 'smtp'; // mail, sendmail, or smtp    The mail sending protocol.
+            
             $this->load->library('email');
+            $this->email->initialize($config);
+            
             $this->email->set_newline("\r\n");
 
             $this->email->from('jmorrow@gator4095.hostgator.com', 'Name');
