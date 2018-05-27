@@ -143,6 +143,20 @@ if (!function_exists('get_phone_number'))
     {
         $phone_number = "773-543-5880";
         return $phone_number;
-    }   
+    }  
     
+}
+
+ if (!function_exists('random_image_generate'))
+ {
+ 
+     function random_image_generate()
+    {
+         $random_number = rand(0,8);
+         $image_url = get_asset_path('images');
+         $image_url .= 'header-background-'.$random_number.'.jpg';
+         
+         return $image_url;
+    }
+ 
 }
