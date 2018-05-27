@@ -3,3 +3,5 @@
 /media
 .DS_Store
 /application/logs
+/error_log
+.ftpquota
