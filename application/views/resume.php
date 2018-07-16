@@ -8,7 +8,7 @@
         <div class="nine columns main-col">
             <div class="row item">
                 <div class="twelve columns">
-                    <h3>Magento</h3>
+                    <h3>Magento, an Adobe Company</h3>
                     <p class="info">Head of Channel Technical Sales<span>></span><em class="date">March 2018 - Present</em></p>
                     <ul class="disc">
                         <li>2018 Initiatives Well Underway</li>                           
