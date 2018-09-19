@@ -50,7 +50,7 @@ class Form extends CI_Controller {
             $this->email->send();
  
             //set flash data for error/success 
-            $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Got Your Message!</h1><br /><h3>You will hear from me shortly.</h3></div>');
+            $this->session->set_flashdata('message', '<style>div.banner-hide {display:none;}</style><div class="banner-text"><h1 class="responsive-headline">Thanks For The Message!</h1><br /><h3>You will hear from me shortly.</h3></div>');
             
             //redirect back to home page and display flash message
             redirect();
