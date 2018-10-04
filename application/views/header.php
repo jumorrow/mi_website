@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');?> 
 
-<header id="home" style="background: #161415 url('<?php echo random_image_generate();?>') no-repeat top center;">
+<header id="home" style="background: #161415 url('<?php echo get_asset_path('images','header-background-0.jpg');?>') no-repeat top center;">
     <nav id="nav-wrap">
         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
