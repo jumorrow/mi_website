@@ -11,7 +11,16 @@
                     <h3>Magento, an Adobe Company</h3>
                     <p class="info">Head of Channel Technical Sales<span>></span><em class="date">March 2018 - Present</em></p>
                     <ul class="disc">
-                        <li>2018 Initiatives Well Underway</li>                           
+                        <li>Identified and resolved many revenue-prohibitive roadblocks for large technical vendor eco-system</li>
+                        <li>Envisioned, authored and delivered multiple full-day training sessions (on demand video training, instructor led)</li>
+                        <li>Educational Focus:
+                            <ul>
+                                <li>Strategic Sales Engagements</li>
+                                <li>Complex Solution Selling</li>
+                                <li>Technical/DevOps Procedures</li>
+                                <li>Sales Psychology/Mindset</li>
+                                <li>Motivational Speaking</li>
+                            </ul></li>                    
                     </ul>
             </div>
             </div>
@@ -92,6 +101,7 @@
                     <p class="info">Consultant<span>></span><em class="date">2005-Present</em></p>
                     <ul class="disc">
                         <li>Provided various technical services for more than 50 customers</li>
+                        <li>Provided technical mentorship for many talented individuals and assisted with starting a technical career as well as ongoing professional growth</li>
                     </ul>
                </div>
             </div>  
