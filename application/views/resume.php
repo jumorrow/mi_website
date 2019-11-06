@@ -8,8 +8,8 @@
         <div class="nine columns main-col">
             <div class="row item">
                 <div class="twelve columns">
-                    <h3>Magento, an Adobe Company</h3>
-                    <p class="info">Head of Channel Technical Sales<span>></span><em class="date">March 2018 - Present</em></p>
+                    <h3>Adobe</h3>
+                    <p class="info">Head of Channel Technical Sales, Magento Commerce Solutions<span>></span><em class="date">March 2018 - Present</em></p>
                     <ul class="disc">
                         <li>Identified and resolved many revenue-prohibitive roadblocks for large technical vendor eco-system</li>
                         <li>Envisioned, authored and delivered multiple full-day training sessions (on demand video training, instructor led)</li>
@@ -26,7 +26,7 @@
             </div>
             <div class="row item">
                 <div class="twelve columns">
-                    <h3>Magento / eBay Enterprise</h3>
+                    <h3>Magento, eBay Enterprise</h3>
                     <p class="info">Senior Solutions Consultant<span>></span><em class="date">April 2014 - March 2018</em></p>
                     <ul class="disc">
                         <li>Promoted to Head of Channel Technical Sales</li>

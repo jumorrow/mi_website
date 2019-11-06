@@ -5,7 +5,7 @@
         <div class="three columns"><img class="profile-pic" src="<?php echo get_asset_path('images','profilepic.jpg');?>" alt=""></div>
         <div class="nine columns main-col">
             <h2>About Me</h2>
-            <p>During my fourteen years of working experience, I've held positions within technical sales engineering, complex solutions selling, e-commerce software architecture, software engineering/development, project and account management, team building, application support and network engineering. I also co-own and operate multiple e-commerce store fronts.</p>
+            <p>During my fifteen years of working experience, I've held positions within technical sales engineering, complex solutions selling, e-commerce software architecture, software engineering/development, project and account management, team building, application support and network engineering. I also co-own and operate multiple e-commerce store fronts.</p>
             <p>Outside of work, you'll likely find me listening to Radiohead, searching for the finest nigiri this planet has to offer or mountain biking through the woods.</p>
             <div class="row">
                 <div class="columns contact-details">
