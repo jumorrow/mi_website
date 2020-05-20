@@ -11,6 +11,8 @@
                     <h3>Adobe</h3>
                     <p class="info">Head of Channel Technical Sales, Magento Commerce Solutions<span>></span><em class="date">March 2018 - Present</em></p>
                     <ul class="disc">
+                        <li>Empowering the growth of many software implementation businesses from a process, education/enablement and sales perspective</li>
+                        <li>Written and published multitude of industry whitepapers</li>
                         <li>Identified and resolved many revenue-prohibitive roadblocks for large technical vendor eco-system</li>
                         <li>Envisioned, authored and delivered multiple full-day training sessions (on demand video training, instructor led)</li>
                         <li>Educational Focus:
@@ -52,7 +54,7 @@
                     <h3>Lyons Consulting Group</h3>
                         <p class="info">Technical Architect / Sr. App Engineer<span>></span> <em class="date">February 2011 - April 2014</em></p>
                             <ul class="disc">
-                                <li>Architected, developed, deployed and supported over 40 Magento Enterprise applications</li>
+                                <li>Architected, developed, deployed and supported over 40 e-commerce applications</li>
                                 <li>Spearheaded many internal software offerings; often assisting with taking them to market</li>
                                 <li>Authored many pivotal development and release procedures, increased overall project profitability</li>
                                 <li>Responsible for all development training and certification initiatives, on-boarding process, developer work-flow, internal knowledge share, Magento meet ups and technical interviews</li>
@@ -67,7 +69,7 @@
                     <h3>The Plumtree Group</h3>
                     <p class="info">Technical Lead / Sr. Developer<span>></span><em class="date">April 2008 - February 2011</em></p>
                     <ul class="disc">
-                            <li>Assisted with building new e-commerce practice</li>
+                        <li>Assisted with building new e-commerce practice</li>
                         <li>Authored entire development life cycle, release and support procedures</li>
                         <li>Interviewed, hired, managed and trained 4 US developers and 30+ off-shore resources</li>
                         <li>Contributed to many applications with varying degrees of difficulty in a development and architecture capacity</li>
